@@ -6,9 +6,11 @@ We would like you to post a journal entry that only you can read.  In order to g
 
 You may use the automated testing platform of your choice.  This is not a timed test but it should not take you more than 30 minutes to complete.
 
-Step 1.  Create a username/password using an email address on inspire.com.  For the purpose of this test, please use an email login instead of social login.  This part of the test is manual and you do not need to automate it.  You will use these credentials in your automated test.
+Step 1.  Create a username/password using an email address on inspire.com.  For the purpose of this test, please use an email login instead of social login. This part of the test is manual and you do not need to automate it.  You will use these credentials in your automated test.
 
-Step 2. Create a short test script to do the following.
+Step 2. Email your inspire contact your account credentials.  We will need to enable your account to bypass captcha.
+
+Step 3. Create a short test script to do the following.
 
 ```Log into https://www.inspire.com
 Click on “Start a Journal Entry”
@@ -18,8 +20,6 @@ Fill out the “Body” input field
 Do not select any communities.  (Since this is a test, we just want the journal entry visible to you)
 
 For “Share with” select “inspire friends” (With a new account, you won’t have friends yet so this will post just to you.)
-
-Check off the recaptcha checkbox.
 
 Click Post
 
