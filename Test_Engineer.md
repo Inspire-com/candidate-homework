@@ -8,19 +8,18 @@ You may use the automated testing platform of your choice.  This is not a timed 
 
 Step 1.  Create a username/password using an email address on inspire.com.  For the purpose of this test, please use an email login instead of social login. This part of the test is manual and you do not need to automate it.  You will use these credentials in your automated test.
 
-Step 2. Email your inspire contact your account credentials.  We will need to enable your account to bypass captcha.
+Step 2. Email the account credentials you created for this test to your Inspire contact.  We will need to enable your account to bypass captcha so you can finish your test.
 
 Step 3. Create a short test script to do the following.
 
 ```Log into https://www.inspire.com
-Click on “Start a Journal Entry”
-Fill out the “title” input field.
-Fill out the “Body” input field
-
-Do not select any communities.  (Since this is a test, we just want the journal entry visible to you)
-
-For “Share with” select “inspire friends” (With a new account, you won’t have friends yet so this will post just to you.)
-
+Click on “Start A Post (Discussion Or Journal)”
+Verify the overlay pops up.
+Click on "Post an Entry in my Journal"
+Under "Post in these communities:" chose "Select None"
+Create a title in the “Title” input field.
+Write some content in the “Body” textarea.
+Under the "Share With" heading, select the "Inspire friends" racdio button. (With a new account, you won’t have friends yet so this will post just to you.)
 Click Post
 
 Verify that your post shows up at the top of the lists of posts in your journal by looking for the text you used to input. 
@@ -28,5 +27,5 @@ Verify that your post shows up at the top of the lists of posts in your journal 
 Deliverables:
 
   1. Which testing framework did you choose and why?
-  2. Setup instructions for how to use your testing framework.  You can point us to specific resources, but please assume we have never used it before when you introduce us to it.
-  3. Your actual test suite zipped up in a format we can run.
+  2. Your test scripts.
+  3. Instructions for us on how we can run your test scripts.
