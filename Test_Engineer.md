@@ -26,6 +26,6 @@ Verify that your post shows up at the top of the lists of posts in your journal 
 ```
 Deliverables:
 
-  1. Which testing framework did you choose and why?
-  2. Your test scripts.
+  1. A brief paragraph explaining which testing framework you chose and why?
+  2. Your test scripts.  You can email them zipped up or give us a github repo to check out.
   3. Instructions for us on how we can run your test scripts.
