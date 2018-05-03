@@ -2,7 +2,7 @@ We would like you to do the following exercise to show us how you might create a
 
 We have created the simplest json file for you here:
 
-https://static.inspire.com/api-fun/books.json
+https://s3.amazonaws.com/api-fun/books.json
 
 
 Please build a small javascript-based web application that uses the data from this URL.  
