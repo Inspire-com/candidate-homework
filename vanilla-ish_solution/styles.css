@@ -1,0 +1,47 @@
+h1{
+	font-size: 6em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+p, li{
+	font-size: 1.5em;
+}
+
+.container{
+	width: 100%;
+}
+
+.author{
+    font-family: 'K2D', sans-serif;
+    /* font-size: 8em; */
+    text-align: center; 
+    /* padding-top: 5%; */
+}
+
+.author-info{
+	text-align: center;
+}
+
+.books-container{
+	margin: 2%;
+}
+
+.book{
+	margin: 4%;
+}
+
+.book-thumbnail{
+	width: 50%;
+	height: 50%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.book-label{
+	text-decoration: underline;
+}
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>title</title>
+        <link href="https://fonts.googleapis.com/css?family=K2D|Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body class="amber lighten-5">
+        <div class="row">
+            <div class="col 2 offset-s10">
+                <span class="flow-text">
+                    <div class="switch">
+                        <label>
+                            Title 
+                            <input type="checkbox">
+                            <span class="lever brown lighten-4"></span>
+                            Date
+                        </label>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 author"><h1>Author</h1></div>
+        </div>
+
+        <div class="container">
+            <div class="row brown lighten-4 author-info">
+                <div class="col s6"><h2>Birthday:</h2></div>
+                <div class="col s6"><h2>Place of Birth:</h2></div>
+            </div>
+        </div>
+
+        <div class="row teal lighten-4 books-container">
+            <div class="col s6 books">
+                <div class="col s12 book white ">
+                    <div class="col s3 book-thumbnail"><img src="https://images-na.ssl-images-amazon.com/images/I/51oQX1lEFAL._AC_US218_.jpg" alt="image A"></div>
+                    <div class="col s9 book-content white">
+                        <ol>
+                            <li><span class="book-label">Title</span>: {{ title }}</li>
+                            <li><span class="book-label">Publication Date</span>: {{ date }}</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col s12 book white">
+                    <div class="col s3 book-thumbnail"><img src="https://images-na.ssl-images-amazon.com/images/I/51bXpL9GKBL._AC_US218_.jpg" alt="image B"></div>
+                        <div class="col s9 book-content white">
+                            <ol>
+                                <li><span class="book-label">Title</span>: {{ title }}</li>
+                                <li><span class="book-label">Publication Date</span>: {{ date }}</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
