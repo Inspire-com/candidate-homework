@@ -15,11 +15,10 @@ Step 3. Create a short test script to do the following.
 ```Log into https://www.inspire.com
 Click on “Start A Post (Discussion Or Journal)”
 Verify the overlay pops up.
-Click on "Post an Entry in my Journal"
-Under "Post in these communities:" chose "Select None"
+Click on "Journal Entry"
 Create a title in the “Title” input field.
 Write some content in the “Body” textarea.
-Under the "Share With" heading, select the "Inspire friends" racdio button. (With a new account, you won’t have friends yet so this will post just to you.)
+Under the "Where should I post my journal entry" heading, select the "Inspire friends" radio button. (With a new account, you won’t have friends yet so this will post just to you.)
 Click Post
 
 Verify that your post shows up at the top of the lists of posts in your journal by looking for the text you used to input. 
