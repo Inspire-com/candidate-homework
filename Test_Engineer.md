@@ -1,5 +1,5 @@
-Inspire QA Engineer Automated Testing Exercise
-
+# Inspire QA Engineer Automated Testing Exercise
+## Part 1
 We would like you to do the following exercise to show us how you might use automated testing to run regression tests on our flagship site, https://www.inspire.com.  
 
 We would like you to post a journal entry that only you can read.  In order to get familiar with our site, please make yourself a username and password and click around a bit.  Please note that you are going to need to give us the credentials for this account as part of your test script.
@@ -28,3 +28,6 @@ Deliverables:
   1. A brief paragraph explaining which testing framework you chose and why?
   2. Your test scripts.  You can email them zipped up or give us a github repo to check out.
   3. Instructions for us on how we can run your test scripts.
+
+## Part 2
+During your interview we will have a discussion about a hypothetical number guessing game, and the APIs associated with that game. We'll provide some information about the APIs involved, and then have a discussion with you about how you would go about effectively testing the set of APIs the game will use.
