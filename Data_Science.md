@@ -10,7 +10,7 @@ We need to come up with recommendations for the product team and the marketing t
 
 #### Data
 
-The [rider hit data](https://github.com/Inspire-com/candidate-homework/blob/master/Data_Science_Data/conversion_data.csv) should be used for this exercise:
+The [rider hit data](https://github.com/Inspire-com/candidate-homework/blob/master/data/conversion_data.csv) should be used for this exercise:
 
 
 The table has information about visitors during one session. Each row is a visitor session.
