@@ -1,6 +1,6 @@
 # Data Engineer Interview
 
-## SQL Analysis Challenge (30-60 minutes)
+## SQL Analysis Challenge
 
 ### Description
 
@@ -8,7 +8,9 @@ We are going to use the kaggle dataset about soccer to do some SQL analysis. The
 
 This is a sqlite database, which has its own quirks but is easily installable on most systems. You are allowed to google and test out as much as you’d like (just share your screen so we can observe your problem solving process).
 
-This is a series of questions designed to test your familiarity with SQL filtering, joining, and aggregations.  
+This is a series of questions designed to test your familiarity with SQL filtering, joining, and aggregations.
+
+For each of the questions below, please provide the SQL query AND the results for the question.
 
 #### A couple tips
 
@@ -16,9 +18,9 @@ You can use the `.schema ` or `.schema <tablename>` command in the sqlite consol
 
 ### Questions to answer
 
-1. Tell me the name of the player who has the highest left-footed (`preferred_foot`), shot_power and free_kick_accuracy
+1. Tell me the name of the player with the highest combined shot_power and free_kick_accuracy who happens to be left-footed
 2. Get me the roster (list of player names) for each team
-3. BONUS: For each player that has been a member of more than 3 teams, tell me the player name, the team name, number of matches they have played for each team
+3. For each player that has been a member of more than 3 teams, return the player name, the team name, and the number of matches they have played for each team
 
 ---
 
