@@ -7,7 +7,7 @@ We would like you to post a journal entry that only you can read.  In order to g
 You may use the automated testing platform of your choice.  This is not a timed test but it should not take you more than 30 minutes to complete.
 
 ### Step 1.
-Create a username/password using an email address on inspire.com.  For the purpose of this test, please use an email login instead of social login. This part of the test is manual and you do not need to automate it.  You will use these credentials in your automated test.
+Create a username/password using an email address on inspire.com, and chose a user name like QA_candidate_1.  For the purpose of this test, please use an email login instead of social login. This part of the test is manual and you do not need to automate it.  You will use these credentials in your automated test.
 
 ### Step 2.
 Create at least two posts on the site so you can get familiar with the site and then email the account credentials you created for this test to your Inspire contact.  We will need to enable your account to bypass captcha so you can finish your test.  You can create posts that are friends only so they will not be visible to anyone but you.
