@@ -1,5 +1,5 @@
 
-If any part of this exercise is unclear, please don't hesitate to ask us questions. If you feel it is taking more time to accomplish than you have to commit, please let us know that as well. Our goal is not to waste anyone's time, but to have a simple set of excercises you can use to demonstrate your skills.
+If any part of this exercise is unclear, please don't hesitate to ask us questions. If you feel it is taking more time to accomplish than you have to commit, please let us know that as well. Our goal is not to waste anyone's time, but to have a simple set of exercises you can use to demonstrate your skills.
 
 ### CloudFormation ###
 
@@ -28,7 +28,7 @@ Some things cannot be done in the AWS console, like scripting etc.  Provide exam
 
 We use Ansible to keep our linux systems up to date and configured according to our standards.
 
-Please create an ansible playbook that can be run against an Ubuntu 20.04 Linux server and would do the following:
+Please create an Ansible playbook that can be run against an Ubuntu 20.04 Linux server and would do the following:
 1) Install all updates
 2) Create a new user account called “inspire”
 3) Create a password for the “inspire” user, also set to “inspire”
