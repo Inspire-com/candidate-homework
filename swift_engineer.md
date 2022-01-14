@@ -16,3 +16,5 @@ Examples of potential responses for the request `GET /api/counts`:
 ```
 
 How would you construct a robust Swift model such that `counter` is properly initialized in all of the above cases?
+
+_Please send us a zipped file of your files for this exercise. Do not submit a pull request._
