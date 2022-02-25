@@ -17,22 +17,21 @@ Please create a CloudFormation document that can be applied to AWS and configure
 
 ### AWS CLI ### 
 
-Some things cannot be done in the AWS console, like scripting etc.  Provide examples of AWS CLI (in bash script if necessary) that can do the following.
+Some things cannot be done in the AWS console, like scripting etc.  Provide examples of AWS CLI (in a bash/zsh script) that can do the following.
 
 1) Show the contents of the hypothetical s3 bucket bucket `Important Data/logs`
 2) Change the name of an IAM user
 3) Add the callers IP address to a hypothetical security group `sg_3452925`
 4) Instantiate a new policy and attach it to the hypothetical role `developer_level2`
 
-### Ansible ###
+### Terraform ###
 
-We use Ansible to keep our linux systems up to date and configured according to our standards.
+We use Terraform to manage AWS accounts
 
-Please create an Ansible playbook that can be run against an Ubuntu 20.04 Linux server and would do the following:
-1) Install all updates
-2) Create a new user account called “inspire”
-3) Create a password for the “inspire” user, also set to “inspire”
-4) Create a file in the "inspire" user's home folder called “inspire.txt” with the text “Inspire is awesome” inside the file.
-5) Ensure that the apache web server is installed, is running, and starts up automatically if the system is rebooted.
+Please create a Terraform (written in HCL) configuration to create and maintain the following resources:
+1) A `t2.micro` EC2 instance, named 'workbench1', based on an amazon machine image.
+2) A RDS Cluster with 2 nodes, each in different availability zone, with a max number of simutaneous connections equal to 16,000 connections.
+3) A pair of buckets, one pubic, one private with access to one external account with the account id: `001234567890`
+4) An IAM group containing 3 IAM users: `vera`, `chuck` and `dave`
 
-The output of this exercise should be a single Ansible playbook. We will examine your playbook and test it against a fresh Ubuntu 20.04 linux virtual machine in EC2.
+The output of this exercise should be a zip file containing a set of files as well as a markdown file describing each document/script, what it does, and if you're unable to complete an item, simply a reason why it's not solvable (`it's not supported by this method`, etc). 
