@@ -19,7 +19,7 @@ Please create a CloudFormation document that can be applied to AWS and configure
 
 Some things cannot be done in the AWS console, like scripting etc.  Provide examples of AWS CLI (in a bash/zsh script) that can do the following.
 
-1) Show the contents of the hypothetical s3 bucket bucket `Important Data/logs`
+1) Show the contents of the hypothetical s3 bucket `Important Data/logs`
 2) Change the name of an IAM user
 3) Add the callers IP address to a hypothetical security group `sg_3452925`
 4) Instantiate a new policy and attach it to the hypothetical role `developer_level2`
