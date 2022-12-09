@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F095F2192924CF67001A70BA /* Inspire_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095F2182924CF67001A70BA /* Inspire_ChallengeApp.swift */; };
+		F095F21B2924CF67001A70BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095F21A2924CF67001A70BA /* ContentView.swift */; };
+		F095F21D2924CF68001A70BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F095F21C2924CF68001A70BA /* Assets.xcassets */; };
+		F095F2202924CF68001A70BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F095F21F2924CF68001A70BA /* Preview Assets.xcassets */; };
+		F095F22A2924CF68001A70BA /* Inspire_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095F2292924CF68001A70BA /* Inspire_ChallengeTests.swift */; };
+		F095F2342924CF68001A70BA /* Inspire_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095F2332924CF68001A70BA /* Inspire_ChallengeUITests.swift */; };
+		F095F2362924CF68001A70BA /* Inspire_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F095F2352924CF68001A70BA /* Inspire_ChallengeUITestsLaunchTests.swift */; };
+		F095F2432924DC48001A70BA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F095F2422924DC48001A70BA /* Colors.xcassets */; };
+		F095F24829253E8C001A70BA /* ImportedData.json in Resources */ = {isa = PBXBuildFile; fileRef = F095F24729253E8C001A70BA /* ImportedData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F095F2262924CF68001A70BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F095F20D2924CF67001A70BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F095F2142924CF67001A70BA;
+			remoteInfo = "Inspire Challenge";
+		};
+		F095F2302924CF68001A70BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F095F20D2924CF67001A70BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F095F2142924CF67001A70BA;
+			remoteInfo = "Inspire Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F095F2152924CF67001A70BA /* Inspire Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inspire Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F095F2182924CF67001A70BA /* Inspire_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspire_ChallengeApp.swift; sourceTree = "<group>"; };
+		F095F21A2924CF67001A70BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F095F21C2924CF68001A70BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F095F21F2924CF68001A70BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F095F2252924CF68001A70BA /* Inspire ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inspire ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F095F2292924CF68001A70BA /* Inspire_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspire_ChallengeTests.swift; sourceTree = "<group>"; };
+		F095F22F2924CF68001A70BA /* Inspire ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inspire ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F095F2332924CF68001A70BA /* Inspire_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspire_ChallengeUITests.swift; sourceTree = "<group>"; };
+		F095F2352924CF68001A70BA /* Inspire_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspire_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F095F2422924DC48001A70BA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F095F24729253E8C001A70BA /* ImportedData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ImportedData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F095F2122924CF67001A70BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F095F2222924CF68001A70BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F095F22C2924CF68001A70BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F095F20C2924CF67001A70BA = {
+			isa = PBXGroup;
+			children = (
+				F095F2172924CF67001A70BA /* Inspire Challenge */,
+				F095F2282924CF68001A70BA /* Inspire ChallengeTests */,
+				F095F2322924CF68001A70BA /* Inspire ChallengeUITests */,
+				F095F2162924CF67001A70BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F095F2162924CF67001A70BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F095F2152924CF67001A70BA /* Inspire Challenge.app */,
+				F095F2252924CF68001A70BA /* Inspire ChallengeTests.xctest */,
+				F095F22F2924CF68001A70BA /* Inspire ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F095F2172924CF67001A70BA /* Inspire Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				F095F24529253D8B001A70BA /* Models */,
+				F095F24429253D7F001A70BA /* Views */,
+				F095F2182924CF67001A70BA /* Inspire_ChallengeApp.swift */,
+				F095F21A2924CF67001A70BA /* ContentView.swift */,
+				F095F21C2924CF68001A70BA /* Assets.xcassets */,
+				F095F2422924DC48001A70BA /* Colors.xcassets */,
+				F095F21E2924CF68001A70BA /* Preview Content */,
+				F095F24729253E8C001A70BA /* ImportedData.json */,
+			);
+			path = "Inspire Challenge";
+			sourceTree = "<group>";
+		};
+		F095F21E2924CF68001A70BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F095F21F2924CF68001A70BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F095F2282924CF68001A70BA /* Inspire ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F095F2292924CF68001A70BA /* Inspire_ChallengeTests.swift */,
+			);
+			path = "Inspire ChallengeTests";
+			sourceTree = "<group>";
+		};
+		F095F2322924CF68001A70BA /* Inspire ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F095F2332924CF68001A70BA /* Inspire_ChallengeUITests.swift */,
+				F095F2352924CF68001A70BA /* Inspire_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Inspire ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		F095F24429253D7F001A70BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F095F24529253D8B001A70BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F095F2142924CF67001A70BA /* Inspire Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F095F2392924CF68001A70BA /* Build configuration list for PBXNativeTarget "Inspire Challenge" */;
+			buildPhases = (
+				F095F2112924CF67001A70BA /* Sources */,
+				F095F2122924CF67001A70BA /* Frameworks */,
+				F095F2132924CF67001A70BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inspire Challenge";
+			productName = "Inspire Challenge";
+			productReference = F095F2152924CF67001A70BA /* Inspire Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F095F2242924CF68001A70BA /* Inspire ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F095F23C2924CF68001A70BA /* Build configuration list for PBXNativeTarget "Inspire ChallengeTests" */;
+			buildPhases = (
+				F095F2212924CF68001A70BA /* Sources */,
+				F095F2222924CF68001A70BA /* Frameworks */,
+				F095F2232924CF68001A70BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F095F2272924CF68001A70BA /* PBXTargetDependency */,
+			);
+			name = "Inspire ChallengeTests";
+			productName = "Inspire ChallengeTests";
+			productReference = F095F2252924CF68001A70BA /* Inspire ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F095F22E2924CF68001A70BA /* Inspire ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F095F23F2924CF68001A70BA /* Build configuration list for PBXNativeTarget "Inspire ChallengeUITests" */;
+			buildPhases = (
+				F095F22B2924CF68001A70BA /* Sources */,
+				F095F22C2924CF68001A70BA /* Frameworks */,
+				F095F22D2924CF68001A70BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F095F2312924CF68001A70BA /* PBXTargetDependency */,
+			);
+			name = "Inspire ChallengeUITests";
+			productName = "Inspire ChallengeUITests";
+			productReference = F095F22F2924CF68001A70BA /* Inspire ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F095F20D2924CF67001A70BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F095F2142924CF67001A70BA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F095F2242924CF68001A70BA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F095F2142924CF67001A70BA;
+					};
+					F095F22E2924CF68001A70BA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F095F2142924CF67001A70BA;
+					};
+				};
+			};
+			buildConfigurationList = F095F2102924CF67001A70BA /* Build configuration list for PBXProject "Inspire Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F095F20C2924CF67001A70BA;
+			productRefGroup = F095F2162924CF67001A70BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F095F2142924CF67001A70BA /* Inspire Challenge */,
+				F095F2242924CF68001A70BA /* Inspire ChallengeTests */,
+				F095F22E2924CF68001A70BA /* Inspire ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F095F2132924CF67001A70BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F095F2432924DC48001A70BA /* Colors.xcassets in Resources */,
+				F095F2202924CF68001A70BA /* Preview Assets.xcassets in Resources */,
+				F095F21D2924CF68001A70BA /* Assets.xcassets in Resources */,
+				F095F24829253E8C001A70BA /* ImportedData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F095F2232924CF68001A70BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F095F22D2924CF68001A70BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F095F2112924CF67001A70BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F095F21B2924CF67001A70BA /* ContentView.swift in Sources */,
+				F095F2192924CF67001A70BA /* Inspire_ChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F095F2212924CF68001A70BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F095F22A2924CF68001A70BA /* Inspire_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F095F22B2924CF68001A70BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F095F2342924CF68001A70BA /* Inspire_ChallengeUITests.swift in Sources */,
+				F095F2362924CF68001A70BA /* Inspire_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F095F2272924CF68001A70BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F095F2142924CF67001A70BA /* Inspire Challenge */;
+			targetProxy = F095F2262924CF68001A70BA /* PBXContainerItemProxy */;
+		};
+		F095F2312924CF68001A70BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F095F2142924CF67001A70BA /* Inspire Challenge */;
+			targetProxy = F095F2302924CF68001A70BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F095F2372924CF68001A70BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F095F2382924CF68001A70BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F095F23A2924CF68001A70BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inspire Challenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inspire.challenge.Inspire-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F095F23B2924CF68001A70BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inspire Challenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inspire.challenge.Inspire-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F095F23D2924CF68001A70BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inspire.challenge.Inspire-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspire Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inspire Challenge";
+			};
+			name = Debug;
+		};
+		F095F23E2924CF68001A70BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inspire.challenge.Inspire-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inspire Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inspire Challenge";
+			};
+			name = Release;
+		};
+		F095F2402924CF68001A70BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inspire.challenge.Inspire-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inspire Challenge";
+			};
+			name = Debug;
+		};
+		F095F2412924CF68001A70BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.inspire.challenge.Inspire-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inspire Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F095F2102924CF67001A70BA /* Build configuration list for PBXProject "Inspire Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F095F2372924CF68001A70BA /* Debug */,
+				F095F2382924CF68001A70BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F095F2392924CF68001A70BA /* Build configuration list for PBXNativeTarget "Inspire Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F095F23A2924CF68001A70BA /* Debug */,
+				F095F23B2924CF68001A70BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F095F23C2924CF68001A70BA /* Build configuration list for PBXNativeTarget "Inspire ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F095F23D2924CF68001A70BA /* Debug */,
+				F095F23E2924CF68001A70BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F095F23F2924CF68001A70BA /* Build configuration list for PBXNativeTarget "Inspire ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F095F2402924CF68001A70BA /* Debug */,
+				F095F2412924CF68001A70BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F095F20D2924CF67001A70BA /* Project object */;
+}

@@ -1,0 +1,194 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "trackingId": "24545331",
+      "slug": "happy-new-work",
+      "author": {
+        "nickname": "Jack_123",
+        "avatar": {
+          "small": ""
+        }
+      },
+      "url": "",
+      "title": "My First Test",
+      "content": "This is my first test post",
+      "created": "2022-10-11T07:23:12Z",
+      "updated": "",
+      "reactions": [
+        {
+          "type": "support",
+          "count": 1,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "thanks",
+          "count": 2,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "useful",
+          "count": 3,
+          "reacted_by_me": false,
+          "users": ""
+        }
+      ],
+      "isFollowed": false,
+      "replyCountNonDeleted": 0
+    },
+    {
+      "id": "2",
+      "trackingId": "24545332",
+      "slug": "happy-new-work-2",
+      "author": {
+        "nickname": "Smith_234",
+        "avatar": {
+          "small": ""
+        }
+      },
+      "url": "",
+      "title": "My Second Test",
+      "content": "This is my second test post",
+      "created": "2022-10-12T08:23:12Z",
+      "updated": "",
+      "reactions": [
+        {
+          "type": "support",
+          "count": 0,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "thanks",
+          "count": 1,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "useful",
+          "count": 3,
+          "reacted_by_me": false,
+          "users": ""
+        }
+      ],
+      "isFollowed": false,
+      "replyCountNonDeleted": 0
+    },
+    {
+      "id": "3",
+      "trackingId": "24545333",
+      "slug": "happy-new-work-3",
+      "author": {
+        "nickname": "William",
+        "avatar": {
+          "small": ""
+        }
+      },
+      "url": "",
+      "title": "My Third Test",
+      "content": "This is my third test post",
+      "created": "2022-10-13T09:33:12Z",
+      "updated": "",
+      "reactions": [
+        {
+          "type": "support",
+          "count": 1,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "thanks",
+          "count": 2,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "useful",
+          "count": 4,
+          "reacted_by_me": false,
+          "users": ""
+        }
+      ],
+      "isFollowed": false,
+      "replyCountNonDeleted": 0
+    },
+    {
+      "id": "4",
+      "trackingId": "24545334",
+      "slug": "happy-new-work-4",
+      "author": {
+        "nickname": "Danny_132",
+        "avatar": {
+          "small": ""
+        }
+      },
+      "url": "",
+      "title": "My Fourth Test",
+      "content": "This is my fourth test post",
+      "created": "2022-11-14T07:23:12Z",
+      "updated": "",
+      "reactions": [
+        {
+          "type": "support",
+          "count": 1,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "thanks",
+          "count": 2,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "useful",
+          "count": 5,
+          "reacted_by_me": false,
+          "users": ""
+        }
+      ],
+      "isFollowed": false,
+      "replyCountNonDeleted": 0
+    },
+    {
+      "id": "5",
+      "trackingId": "24545335",
+      "slug": "happy-new-work-5",
+      "author": {
+        "nickname": "Jackson",
+        "avatar": {
+          "small": ""
+        }
+      },
+      "url": "",
+      "title": "My Fifth Test",
+      "content": "This is my fifth test post",
+      "created": "2022-11-15T17:43:12Z",
+      "updated": "",
+      "reactions": [
+        {
+          "type": "support",
+          "count": 1,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "thanks",
+          "count": 5,
+          "reacted_by_me": false,
+          "users": ""
+        },
+        {
+          "type": "useful",
+          "count": 3,
+          "reacted_by_me": false,
+          "users": ""
+        }
+      ],
+      "isFollowed": false,
+      "replyCountNonDeleted": 0
+    }
+  ]
+}
