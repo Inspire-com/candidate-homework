@@ -3,7 +3,7 @@ If any part of this exercise is unclear, please don't hesitate to ask us questio
 
 ### CloudFormation ###
 
-Much of our work is managing the infrastructure on which we manage our systems.  One of our mottos is *Infrastructure as Code*, and to this end, we heavily use AWS CloutFormation.
+Much of our work is managing the infrastructure on which we manage our systems.  One of our mottos is *Infrastructure as Code*, and to this end, we heavily use AWS CloudFormation.
 
 Please create a CloudFormation document that can be applied to AWS and configures the following structure.
 1) Instantiates a pair of s3 buckets.
