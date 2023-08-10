@@ -8,7 +8,10 @@ If any part of this exercise is unclear, please don't hesitate to ask us questio
 
 Much of our work is managing the infrastructure on which we manage our systems.  One of our mottos is *Infrastructure as Code*, and to this end, we heavily use AWS CloudFormation.   
 
-_However if you cannot write this in CloudFormation, you have two other options, write a bash script using AWS CLI, or record yourself performing these functions via the AWS Console._
+_However if you cannot write this in CloudFormation, you have other options...
+1. Implement using TerraForm
+2. Write a bash script using AWS CLI
+3. Record yourself performing these functions via the AWS Console._
 
 Please create a CloudFormation document that can be applied to AWS and configures the following services:
 1) Instantiate SageMaker Domain
