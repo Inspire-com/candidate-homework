@@ -19,9 +19,9 @@ Please create a CloudFormation document that can be applied to AWS and configure
 1) Instantiate SageMaker Domain
 2) Create a SageMaker Notebook instance
 3) Instantiate a basic SageMaker Pipeline, your pipeline should do the following:
-   a) train a model
-   b) deploy the model to the registry
-   c) deploy your model
+   - train a model
+   - deploy the model to the registry
+   - deploy your model
 
 ### Finally ###
 
