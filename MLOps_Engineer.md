@@ -4,14 +4,15 @@
 
 If any part of this exercise is unclear, please don't hesitate to ask us questions. If you feel it is taking more time to accomplish than you have to commit, please let us know that as well. Our goal is not to waste anyone's time, but to have a simple set of exercises you can use to demonstrate your skills. These are basic functions that you should feel confident in demonstrating and performing on a daily basis.
 
-### CloudFormation ###
+### Infrastructure as Code ###
 
-Much of our work is managing the infrastructure on which we manage our systems.  One of our mottos is *Infrastructure as Code*, and to this end, we heavily use AWS CloudFormation.   
+Much of our work is managing the infrastructure on which we manage our systems.  One of our mottos is *Infrastructure as Code*, and to this end, we heavily use AWS CloudFormation, Terraform, CDK and CLI to manage our systems _including ML Ops_.   
 
-_However if you cannot write this in CloudFormation, you have other options..._
+_We prefer CloudFormation for this submission, However if you cannot write this in CloudFormation, you have other options..._
 _1. Implement using TerraForm_
 _2. Write a bash script using AWS CLI_
-_3. Record yourself performing these functions via the AWS Console._
+_3. Write a python module that uses CDK or BOTO3_
+_4. Record yourself performing these functions via the AWS Console._
 
 Please create a CloudFormation document that can be applied to AWS and configures the following services:
 1) Instantiate SageMaker Domain
@@ -24,3 +25,5 @@ Please create a CloudFormation document that can be applied to AWS and configure
 ### Finally ###
 
 Document your submission!   Talk about stumbling blocks, clarify your decisions for us, show us what you do so that the next engineer who might look at your code in the future and need to maintain it, will be able to carry the baton.
+
+We look forward to your submisson and discussing it with you!
