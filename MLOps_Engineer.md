@@ -13,7 +13,7 @@ We prefer CloudFormation for this submission, However if you cannot write this i
 1. Implement using TerraForm
 2. Write a bash script using AWS CLI
 3. Write a python module that uses CDK or BOTO3
-4. Record yourself performing these functions via the AWS Console._
+4. Record yourself performing these functions via the AWS Console.
 
 Please create a CloudFormation document that can be applied to AWS and configures the following services:
 1) Instantiate SageMaker Domain
