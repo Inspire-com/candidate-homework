@@ -1,8 +1,8 @@
 #ML Ops Engineer
 
-## AWS SageMaker Suite
+## Show us what you can do ##
 
-If any part of this exercise is unclear, please don't hesitate to ask us questions. If you feel it is taking more time to accomplish than you have to commit, please let us know that as well. Our goal is not to waste anyone's time, but to have a simple set of exercises you can use to demonstrate your skills. These are basic functions that you should feel confident in demonstrating and performing on a daily basis.
+_If any part of this exercise is unclear, please don't hesitate to ask us questions. If you feel it is taking more time to accomplish than you have to commit, please let us know that as well. Our goal is not to waste anyone's time, but to have a simple set of exercises you can use to demonstrate your skills. These are basic functions that you should feel confident in demonstrating and performing on a daily basis._
 
 ### Infrastructure as Code ###
 
