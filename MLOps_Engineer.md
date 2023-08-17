@@ -8,7 +8,7 @@ _If any part of this exercise is unclear, please don't hesitate to ask us questi
 
 Much of our work is managing the infrastructure on which we manage our systems.  One of our mottos is *Infrastructure as Code*, and to this end, we heavily use AWS CloudFormation, Terraform, CDK and CLI to manage our systems _including ML Ops_.   
 
-_We prefer CloudFormation for this submission, However if you cannot write this in CloudFormation, you have other options..._0
+We prefer CloudFormation for this submission, However if you cannot write this in CloudFormation, you have other options...
 
 1. Implement using TerraForm
 2. Write a bash script using AWS CLI
