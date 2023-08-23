@@ -67,7 +67,7 @@ How would you monitor and retrain models deployed on SageMaker? Discuss using Cl
 code for implementing one of these.
 
 # In conclusion... #
-The output of this exercise should be a zip file containing a set of files as well as a markdown file describing each document/script, what it does, and if you're unable to complete
+The output of this exercise that you submit should be a zip file containing a set of files as well as a markdown file describing each document/script, what it does, and if you're unable to complete
 any item, a reason why it's not solvable (it's not supported by this method, etc).  We don't need perfection, sharing why you might have run into a wall goes far in demonstrating to
 us how you handle the roadblocks and how you might communicate to the team the situation when you seek assistance.
 
