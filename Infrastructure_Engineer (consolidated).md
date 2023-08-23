@@ -7,7 +7,8 @@ ability to assess, determine a path forward and communicate with the team is a v
 strength an individual brings to the table.
 
 If you get stuck on something, comment on it in the same way you might bring it up to the team during a daily standup.   If any part of this exercise is unclear, please take time
-to point it out and what about the question was difficult. If you feel it is taking more time to accomplish than you have to commit, please let us know that as well. Our goal is not to waste anyone's time, but to have a rich set of exercises that you can use to demonstrate your skills.
+to point it out and what about the question was difficult. If you feel it is taking more time to accomplish than you have to commit, please let us know that as well. Our goal is not to waste anyone's time, 
+but to have a rich set of exercises that you can use to demonstrate your skills.
 
 It is a good idea to test what you plan to submit, keep in mind that AWS does provide free accounts that you can use to prepare this exercise.
 
@@ -19,7 +20,8 @@ Terraform, AWS CLI and AWS CDK.
 Explain how you would use CloudFormation to deploy a web application with auto-scaling, load balancing, and robust security. Provide a sample CloudFormation template snippet demonstrating the following.
 - Instantiate a pair of s3 buckets.
 - Create and apply a pair of policies, one that sets one of the buckets to be public, the second to be private.
-- Create a developer role and make vera a member of it.
+- Create a new user named `vera`.
+- Create a `developer` role and make `vera` a member of it.
 - Grant the developer role the following rights to the second bucket created above.
    * create object
    * delete object
@@ -29,23 +31,24 @@ Explain how you would use CloudFormation to deploy a web application with auto-s
   
 ## AWS CLI ##
 Some things cannot be done in the AWS console, like scripting etc. Provide examples of AWS CLI (in a bash/zsh script) that can do the following:
-- Show the contents of the hypothetical s3 bucket Important Data/logs
+- Show the contents of the hypothetical s3 bucket `Important Data/logs`
 - Change the name of an IAM user
-- Add the caller's IP address to a hypothetical security group sg_3452925
-- Instantiate a new policy and attach it to the hypothetical role developer_level2
+- Add the caller's IP address to a hypothetical security group `sg_3452925`
+- Instantiate a new policy and attach it to the hypothetical role `developer_level2`
 
 ## Terraform ##
 We use Terraform to manage infrastructure within our AWS accounts
 
 Please create a Terraform (written in HCL) configuration to create and maintain the following resources:
-- A t2.micro EC2 instance, named 'workbench1', based on an amazon machine image.
+- A t2.micro EC2 instance, named `workbench1`, based on an amazon machine image.
 - A RDS Cluster with 2 nodes, each in different availability zone, with a max number of simultaneous connections equal to 16,000 connections.
-- A pair of buckets, one pubic, one private with access to one external account with the account id: 001234567890
-- An IAM group containing 3 IAM users: vera, chuck and dave
+- A pair of buckets, one pubic, one private with access to one external account with the account id: `001234567890`
+- An IAM group containing 3 IAM users: `vera`, `chuck` and `dave`
 
 # Software Development #
 While we work on infrastructure, we do actually write code.  You need coding skills, both in writing code and working with various engineers throughout the company to help solve
 problems and identify new requirements. Take some time to explain your development process as you demonstate your coding prowess. 
+
 ## Python ##
 We use python heavily in our systems and infrastructure.  It's important to us that you demonstrate your software development skills, and python is an appropriate vehicle for that.
 Write a simple AWS Lambda function in Python that reads data from an S3 bucket, processes it, and saves the results back to S3. Explain how you would structure the code and handle
