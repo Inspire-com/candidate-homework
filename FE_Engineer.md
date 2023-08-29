@@ -10,7 +10,7 @@ The application requirements are as follows:
 - On a mobile-size browser, the list of books should be displayed in a single column.
 - Each book entry in the list should contain the image, the title linked to the purchase URL, and the date published.
 - Provide a sort toggle that gives the user ability to sort data in two ways: alphabetically by title or chronological by publish date.
-- Provide functionality for at least one of the following (Implementing this action only needs to modify data in the browser, not the backend storage). Adding all of the following is appreciated, but not required:
+- Provide functionality for at least one of the following (Implementing this action only needs to modify data in the browser, not the backend storage). All the below features are required:
     - Add a book with an image
     - Delete a book
     - Modify a book
