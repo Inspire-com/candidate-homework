@@ -67,9 +67,15 @@ You have a machine learning model that needs to be containerized and deployed on
 How would you monitor and retrain models deployed on SageMaker? Discuss using CloudWatch metrics, processing batch inference data, and automating retraining workflows. Provide sample 
 code for implementing one of these.
 
-# In conclusion... #
-The output of this exercise that you submit should be a zip file containing a set of files as well as a markdown file describing each document/script, what it does, and if you're unable to complete
-any item, a reason why it's not solvable (it's not supported by this method, etc).  We don't need perfection, sharing why you might have run into a wall goes far in demonstrating to
-us how you handle the roadblocks and how you might communicate to the team the situation when you seek assistance.
+# Final (important) notes... #
+When you submit your exercise be sure to submit the following...
+- Organize your code, each exercise in a different sub-directory
+- In each subdirectory, include a markdown file describing each document/script, what it does, and how to use it.
+- Include a markdown file at the top level that explains why you chose to not submit an answer to any item, a reason why it's not solvable (it's not supported by this method, etc).
+- Everything you reference in your script, template, etc. should be included in this directory structure.  If the file is exceptionally large (like a model), provide the URL in the markdown file for that exercise so that we may fetch it during our review.
+- Zip up your directory and submit it.
+
+We don't need perfection, sharing why you might have run into a wall goes far in demonstrating to
+us how you handle any roadblocks and how you might communicate to the team the situation when you seek assistance.
 
 
