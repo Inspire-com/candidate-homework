@@ -1,7 +1,7 @@
 # Hello! #
 If you're looking at this, you're probably considering joining our Infrastructure team as Cloud, DevOps or ML Ops engineer.  We're excited to meet you. Please do not be 
 intimidated by
-the size of this document.  We do not expect _anyone_ to be able to complete this in the recommended maximum time of 2 hours.  There is no minimum 'score' to pass.   This is 
+the size of this document.  We do not expect _anyone_ to exceed the recommended maximum time of 2 hours.  There is no minimum 'score' to pass.   This is 
 intended to be a challenging technical exercise, but also let you demonstrate to us your ability to identify roadblocks in a reasonable timeframe and communicate how they impact your 
 ability to move forward.  Our team is actively working on new technologies within the AWS ecosystem; so there'll be a lot of times where an engineer might not know something. The 
 ability to assess, determine a path forward and communicate with the team is a very important skill.  Yes the technical unicorn exists, but purely technical skills aren't the only 
