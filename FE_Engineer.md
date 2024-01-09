@@ -1,4 +1,4 @@
-The objective of this exercise is to build a small javascript-based web application using javascript, html and css. You should approach this exercise with the same professionalism and attention to detail as you would for a request from a client.
+The objective of this exercise is to build a small javascript-based web application using Angular 14+. You should approach this exercise with the same professionalism and attention to detail as you would for a request from a client.
 The application should retrieve json-formatted data using the following endpoint:
 
 [https://s3.amazonaws.com/api-fun/books.json](https://s3.amazonaws.com/api-fun/books.json)
@@ -15,7 +15,7 @@ The application requirements are as follows:
     - Delete a book
     - Modify a book
 
-You may use whatever javascript/css/html libraries, tools and frameworks that you are most comfortable with. You may also use whatever server and build tools you prefer.
+You may use whatever javascript/css/html UI libraries, tools that you are most comfortable with. You may also use whatever server and build tools you prefer.
 
 Please deliver the following items:
 
@@ -35,7 +35,7 @@ Your submission will be judged on the following criteria:
     - Comments are provided to explain implementation details
     - There is no redundant or duplicated code
     - There is no duplication of data as stored in the application
-    - Correct usage of javascript methods and/or rxjs operators
+    - Correct usage of javascript/typescript methods and/or rxjs operators
     - Code is self-reviewed and optimized
 - Application responsiveness
     - Mobile requirements as stated above are met
